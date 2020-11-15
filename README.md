@@ -10,8 +10,17 @@ Please visit the notebook `data_exploration.ipynb` for more exploratory analysis
 
 
 
+
+## Evaluation
+
+This Kaggle competition evaluated the performance of a model by the **mean F1 score**, which is given by the following formula:
+
+F1 = TP / (TP + (FP + FN)/2)
+
 ## Benchmark Models
 
 Details of the benchmark model can been viewed in the notebook `benchmark_models.ipynb`.
 
-**Benchmark model #1** predicts the products by simply returning all products that an user had ever purchased before. This model achieved the mean F1 score of **0.21648**.
+**Benchmark model #1**
+
+This model predicts the products by simply returning all products that an user had ever purchased before, yielding the mean F1 score of **0.21648**.
