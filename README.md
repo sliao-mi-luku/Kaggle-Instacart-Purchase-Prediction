@@ -24,3 +24,13 @@ Details of the benchmark model can been viewed in the notebook `benchmark_models
 **Benchmark model #1**
 
 This model predicts the products by simply returning all products that an user had ever purchased before, yielding the mean F1 score of **0.21648**.
+
+
+**Benchmark model #2**
+
+This model predicts the products by drawing K products from that user's history, yielding the mean F1 score of **0.19690**.
+
+K = median of the number of products of that user's history orders
+
+**Benchmark model #3**
+
