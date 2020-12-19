@@ -32,5 +32,7 @@ This model predicts the products by drawing K products from that user's history,
 
 K = median of the number of products of that user's history orders
 
-**Benchmark model #3**
 
+## Recommendation Models
+
+**Collaborative recommendation model**
