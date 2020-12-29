@@ -35,4 +35,12 @@ K = median of the number of products of that user's history orders
 
 ## Recommendation Models
 
+**Association Rules**
+
+1. stocking shelfs
+2. cross-marketing for sales promotions
+3. catalog designs
+4. consumer segmentation
+
 **Collaborative recommendation model**
+
